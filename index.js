@@ -28,7 +28,7 @@ app.use("/api/inngest", serve({
 
 // app.use("/api/e", event({ client: inngest })); // this is for the event handling but not required for now
 
-app.get("/",(req,res)=>{
+app.get("/api",(req,res)=>{
   res.send("Hello World");
 })
 mongoose
